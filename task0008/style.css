@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 1350px;
+    background-color: black;
+    font-size: 20px;
+    padding: 10px 0px 10px 5px;
+    position: fixed;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.ballweb{
+    height: 500px;
+    background: 
+    linear-gradient(rgba(37, 37, 37, 0.5), rgba(49, 46, 46, 0.5)),
+    url("./img/footballweb.png")
+    center / cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 40px;
+    padding-top: 150px;
+    text-align: center;    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.football {
+    height: 100px;
+    background-color: rgb(12, 231, 158);
+    text-align: right;
+    color: black;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 40px 30px 0px 0px;
+}
+.img1 {
+    height: 100px;
+    width: 100px;
+    background: fixed url("./img/football.png") left / cover;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    /* background-image: url("./img/football.png");
+    background-attachment: fixed;
+    background-position: left;  */
+   position:absolute;
+   top: 500px;
+}
+.basketball {
+    height: 100px;
+    background-color: rgba(58, 245, 245, 0.884);
+    text-align: right;
+    color: black;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 40px 30px 0px 0px;
+}
+.img2 {
+    height: 100px;
+    width: 100px;
+    background: fixed url("./img/basketball.png") left / cover;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 600px;
+}
+.tennis {
+    height: 100px;
+    background-color: rgb(7, 100, 7);
+    text-align: right;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 40px 30px 0px 0px;
+}
+.img3 {
+    height: 100px;
+    width: 100px;
+    background: fixed url("./img/tennis.png") left / cover;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 700px;
+}
+.socialpage {
+    height: 120px;
+    background-color: black;
+    text-align: right;
+    color: white;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 50px 30px 0px 0px;
+}
+.img4 {
+    height: 70px;
+    width: 100px;
+    background: fixed url("./img/medal.png") left / cover;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 800px;
+}

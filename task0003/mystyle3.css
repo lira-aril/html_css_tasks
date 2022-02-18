@@ -1,0 +1,35 @@
+.logo{
+    color: white;
+    background-color: pink;
+    font-size: 24px;
+}
+.goods{
+    font-weight: 800;
+}
+.menu{
+    color: black;
+    text-decoration: none;
+}
+h1{
+    font-weight: 900;
+}
+.labtop{
+    color:blue;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.cell{
+    color: blue;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+.xiaomi{
+    color: brown;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.list{
+    color: black;
+    text-decoration: none;
+}

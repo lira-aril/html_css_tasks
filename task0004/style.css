@@ -1,0 +1,40 @@
+html{
+    background-color: rgb(233, 230, 230);
+}
+.darkblue{
+    width: 900px;
+    height: 600px;
+    margin: 20px 50px 40px 20px;
+    border: 1px solid darkblue;
+    border-radius: 200px;
+    background-color: rgb(25, 103, 122);
+}
+.darkblue > .darkred {
+    height: 400px;
+    width: 700px;
+    border: 1px solid darkred;
+    border-radius: 150px;
+    margin:95px auto;
+    background-color: rgb(158, 42, 42);
+}
+.darkred > .green{
+    height: 200px;
+    width: 500px;
+    border: 1px solid green;
+    margin: 55px auto;
+    padding:50px 30px 30px 30px;
+    background-color: green;
+}
+.green > .white{
+    height: 250px;
+    width: 520px;
+    border: 1px solid white;
+    margin: -35px -20px -35px -10px ; 
+}
+.white > .circle{
+    height: 80px;
+    width: 80px;
+    border:2px solid white;
+    margin: 80px auto;
+    border-radius: 300px;
+}

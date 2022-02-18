@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(19, 18, 18, 0.6)),
+    url("night\ city.jpg")
+    center / cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: white;
+}
+.header > * {
+    text-align: center;
+}
+.article{
+    padding: 10px 30px;
+    background: linear-gradient(to bottom,rgb(100, 96, 96), rgba(10, 10, 10));
+    color: white;
+}
+.theme{
+    margin: 20px 0;
+}
+.theme > h2 {
+    margin-bottom: 10px;
+}
+.theme > p {
+    line-height: 20px;
+}
+.footer {
+    background: linear-gradient(to right, rgba(10, 10, 10), rgb(75, 72, 72));
+    color: white;
+}
+.footer > .contact {
+    margin-left: 10px;
+}

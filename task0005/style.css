@@ -1,0 +1,27 @@
+
+.elem1{
+   background-color: #1a0303;
+   height: 2000px;
+   width: 1500px;
+}
+.elem2{
+background-image: url("./img/thumbnail.png");
+background-position: center;
+background-repeat: no-repeat;
+height: 1000px;
+width: 1200px;
+padding-top: 400px;
+text-align: center;
+}
+
+#book{
+    height: 100px;
+    width: 100px;
+    padding-bottom: 100px;
+   
+}
+#water{
+    height: 50px;
+    width: 50px;
+    padding-bottom: 100px;
+}

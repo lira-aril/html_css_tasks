@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>registration form</title>
+    </head>
+    <body>
+        <h1>Регистрация</h1>
+        <form>
+            <label for="name">Логин:</label>
+            <br>
+            <input type="text" id="name">
+            <br><br>
+            <label for="mypass">Пароль:</label>
+            <br>
+            <input type="password" id="mypass">
+            <br><br>
+            <input type="text" placeholder="Имя">
+            <br><br>
+            <input type="text" placeholder="Фамилия">
+            <br><br>
+            <label for="mycity">Город:</label>
+            <br>
+            <input type="text" id="mycity">
+            <br><br>
+            <label>Область:</label>
+            <br>
+            <select>
+                <option >Чуй</option>
+                <option >Нарын</option>
+                <option >Иссык-Куль</option>
+                <option >Талас</option>
+                <option >Жалал-Абад</option>
+                <option >Ош</option>
+                <option >Баткен</option>
+            </select>
+            <br><br>
+            <label for="mydate">Дата рождения:</label>
+            <br>
+            <input type="date" id="mydate">
+            <br><br>
+            <label for="currentday">Текущая дата и время:</label>
+            <br>
+            <input type="datetime-local" id="currentday">
+            <br><br>
+            <label>Текущие навыки:</label>
+            <br>
+            <input type="checkbox">HTML
+            <br>
+            <input type="checkbox">CSS
+            <br>
+            <input type="checkbox">JavaScript
+            <br>
+            <input type="checkbox">Дизайн
+            <br>
+            <input type="checkbox">Верстка
+            <br>
+            <input type="checkbox">Другое
+            <br><br>
+            <label>Предпочтительные дни:</label>
+            <br>
+            <input type="radio" name="days">Пн,Ср,ПТ
+            <br>
+            <input type="radio" name="days">Вт,Чт,Сб
+            <br>
+            <input type="radio" name="days">Пн,Вт,Ср,Чт
+            <br><br>
+            <label for="time">Предпочтительное время:</label>
+            <br>
+            <input type="time" id="time">
+            <br><br>
+            <label for="mycomment">Ваша мотивация<br>(Зачем вы хотите пройти этот курс)</label>
+            <br><br>
+            <textarea cols="50" rows="10" id="mycomment"></textarea>
+            <br><br>
+            <button>Сохранить</button>
+        </form>
+        <hr>
+        <form>
+        <h2>Обратная связь</h2>
+        <label for="appreciate">Оцените обучение (1-неделя):</label>
+        <br>
+        <input type="range" min="1" max="5" value="1" id="appreciate">
+        <br><br>
+        <label for="question">Ваши вопросы и предложения:</label>
+        <br><br>
+        <textarea cols="50" rows="10" placeholder="Вопросы и предложения" id="question"></textarea>
+        <br><br>
+        <input type="submit" value="Отправить">
+        </form>
+    </body>
+</html>
